@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flipzone Balkan | Moderni Gadget Shop</title>
+  <meta name="description" content="Flipzone Balkan - moderni gadget shop sa brzim slanjem, sigurnim plaćanjem i podrškom 24/7." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="brand">
+          <span class="logo">FZ</span>
+          <div>
+            <p class="brand-name">Flipzone Balkan</p>
+            <p class="brand-tag">Pametni gadgeti & lifestyle</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#ponuda">Ponuda</a>
+          <a href="#prednosti">Prednosti</a>
+          <a href="#kako-radi">Kako radi</a>
+          <a href="#recenzije">Recenzije</a>
+          <a href="#faq">FAQ</a>
+          <a href="#kontakt" class="nav-cta">Kontakt</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Otvori meni">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Novi Flipzone Balkan</p>
+          <h1>Moderni gadget shop sa brzim slanjem i provjerenim kvalitetom.</h1>
+          <p class="lead">
+            Sve što je bilo na staroj stranici sada je unaprijeđeno: jasnija ponuda, više opcija
+            isporuke, bolje filtere i dizajn koji izgleda odlično na mobitelu.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#ponuda">Pogledaj ponudu</a>
+            <a class="btn ghost" href="#kontakt">Poruči odmah</a>
+          </div>
+          <div class="hero-badges">
+            <div>
+              <strong>24/7 podrška</strong>
+              <span>Chat, Viber, Instagram</span>
+            </div>
+            <div>
+              <strong>24-48h slanje</strong>
+              <span>Sigurna dostava</span>
+            </div>
+            <div>
+              <strong>Original pakovanja</strong>
+              <span>Garancija kvaliteta</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <p class="hero-card-title">Top ponuda ove sedmice</p>
+            <h2>Mini Smart Projektor 4K</h2>
+            <p>Kompletan kino doživljaj u tvom domu.</p>
+            <div class="hero-card-actions">
+              <span class="price">79,90 KM</span>
+              <a class="btn primary" data-payment-key="projektor" href="#">Kupi odmah</a>
+            </div>
+            <ul class="hero-list">
+              <li>WiFi + Bluetooth</li>
+              <li>HDMI/USB podrška</li>
+              <li>Kompaktan dizajn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ponuda" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Ponuda proizvoda</h2>
+          <p>Odaberi uređaj po kategoriji i cijeni. Klik na “Kupi” vodi direktno na payment link.</p>
+        </div>
+        <div class="filters">
+          <button class="chip active" data-filter="all">Sve</button>
+          <button class="chip" data-filter="audio">Audio</button>
+          <button class="chip" data-filter="fitness">Fitness</button>
+          <button class="chip" data-filter="home">Pametna kuća</button>
+          <button class="chip" data-filter="gaming">Gaming</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="audio">
+            <div class="product-media gradient-1">
+              <span>Noise</span>
+            </div>
+            <h3>Bluetooth slušalice ProX</h3>
+            <p>Aktivno poništavanje buke, 30h baterije, premium kvalitet.</p>
+            <div class="product-meta">
+              <span class="price">59,90 KM</span>
+              <a class="btn secondary" data-payment-key="slusalice" href="#">Kupi</a>
+            </div>
+          </article>
+          <article class="product-card" data-category="fitness">
+            <div class="product-media gradient-2">
+              <span>Move</span>
+            </div>
+            <h3>Pametni sat FitX</h3>
+            <p>Praćenje pulsa, sna, koraka i sportskih aktivnosti.</p>
+            <div class="product-meta">
+              <span class="price">69,90 KM</span>
+              <a class="btn secondary" data-payment-key="sat" href="#">Kupi</a>
+            </div>
+          </article>
+          <article class="product-card" data-category="home">
+            <div class="product-media gradient-3">
+              <span>Smart</span>
+            </div>
+            <h3>LED pametne trake</h3>
+            <p>16M boja, sinhronizacija s muzikom i kontrola aplikacijom.</p>
+            <div class="product-meta">
+              <span class="price">29,90 KM</span>
+              <a class="btn secondary" data-payment-key="led" href="#">Kupi</a>
+            </div>
+          </article>
+          <article class="product-card" data-category="gaming">
+            <div class="product-media gradient-4">
+              <span>Play</span>
+            </div>
+            <h3>Mobile Gaming Controller</h3>
+            <p>Ergonomski grip, hladnjak i mapiranje tipki.</p>
+            <div class="product-meta">
+              <span class="price">44,90 KM</span>
+              <a class="btn secondary" data-payment-key="controller" href="#">Kupi</a>
+            </div>
+          </article>
+          <article class="product-card" data-category="home">
+            <div class="product-media gradient-5">
+              <span>Clean</span>
+            </div>
+            <h3>Mini vakuum za auto</h3>
+            <p>Brzo čišćenje, bežični rad, punjenje USB-C.</p>
+            <div class="product-meta">
+              <span class="price">39,90 KM</span>
+              <a class="btn secondary" data-payment-key="vakuum" href="#">Kupi</a>
+            </div>
+          </article>
+          <article class="product-card" data-category="audio">
+            <div class="product-media gradient-6">
+              <span>Charge</span>
+            </div>
+            <h3>Powerbank 20.000mAh</h3>
+            <p>Brzo punjenje, dual USB + USB-C, LED indikator.</p>
+            <div class="product-meta">
+              <span class="price">49,90 KM</span>
+              <a class="btn secondary" data-payment-key="powerbank" href="#">Kupi</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prednosti" class="section highlight">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Zašto Flipzone?</h2>
+          <p>Više opcija, više sigurnosti i bolja korisnička podrška.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Sigurna kupovina</h3>
+            <p>Plaćanje pouzećem ili online putem provjerenih gateway-a.</p>
+          </article>
+          <article>
+            <h3>Paketi s garancijom</h3>
+            <p>Svaki proizvod dolazi u originalnom pakovanju i prošao je kontrolu.</p>
+          </article>
+          <article>
+            <h3>Personalizovane preporuke</h3>
+            <p>Filteri po kategoriji, cijeni i popularnosti.</p>
+          </article>
+          <article>
+            <h3>Praćenje pošiljke</h3>
+            <p>Automatske poruke o statusu dostave putem SMS/Viber.</p>
+          </article>
+          <article>
+            <h3>Brza zamjena</h3>
+            <p>Besplatna zamjena u slučaju fabričkog kvara.</p>
+          </article>
+          <article>
+            <h3>Iskustvo 1 na 1</h3>
+            <p>Online savjetnik pomaže oko odabira gadgeta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kako-radi" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Kako naručiti?</h2>
+          <p>Tri brza koraka do tvojih novih gadgeta.</p>
+        </div>
+        <div class="steps">
+          <div>
+            <span>1</span>
+            <h3>Odaberi proizvod</h3>
+            <p>Klikni “Kupi” i otvori payment link za taj proizvod.</p>
+          </div>
+          <div>
+            <span>2</span>
+            <h3>Unesi podatke</h3>
+            <p>Ime, adresa i broj telefona za sigurnu dostavu.</p>
+          </div>
+          <div>
+            <span>3</span>
+            <h3>Potvrdi porudžbu</h3>
+            <p>Dobijaš potvrdu i broj za praćenje pošiljke.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section banner">
+      <div class="container banner-content">
+        <div>
+          <h2>Specijalni bundle paketi</h2>
+          <p>Uštedi do 20% kombinovanjem više gadgeta u jednu porudžbu.</p>
+        </div>
+        <a class="btn primary" href="#kontakt">Zatraži ponudu</a>
+      </div>
+    </section>
+
+    <section id="recenzije" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Recenzije kupaca</h2>
+          <p>Stvarna iskustva iz BiH, Srbije i Hrvatske.</p>
+        </div>
+        <div class="testimonials">
+          <article>
+            <p>“Slušalice su stigle za 24h, zvuk top, komunikacija odlična.”</p>
+            <span>- Marko, Banja Luka</span>
+          </article>
+          <article>
+            <p>“Projektor je iznad očekivanja, žena oduševljena.”</p>
+            <span>- Amina, Sarajevo</span>
+          </article>
+          <article>
+            <p>“Support 10/10, zamjena obavljena bez problema.”</p>
+            <span>- Nikola, Novi Sad</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section highlight">
+      <div class="container">
+        <div class="section-heading">
+          <h2>FAQ</h2>
+          <p>Najčešća pitanja o kupovini i dostavi.</p>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Koliko traje dostava?</summary>
+            <p>Standardna dostava je 24-48h za BiH, 2-4 dana za region.</p>
+          </details>
+          <details>
+            <summary>Da li je moguće plaćanje pouzećem?</summary>
+            <p>Da, podržavamo pouzeće, kao i kartično i online plaćanje.</p>
+          </details>
+          <details>
+            <summary>Šta ako proizvod ima kvar?</summary>
+            <p>Javite se u roku 48h i dobijate besplatnu zamjenu ili povrat.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section contact">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <h2>Kontaktiraj nas</h2>
+            <p>Tu smo za sva pitanja: Instagram, WhatsApp, Viber ili telefon.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn primary" href="tel:+38760000000">Pozovi</a>
+            <a class="btn secondary" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a class="btn ghost" href="https://wa.me/38760000000" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Flipzone Balkan</h3>
+          <p>Moderni gadget shop za cijeli Balkan.</p>
+        </div>
+        <div>
+          <h4>Brzi linkovi</h4>
+          <ul>
+            <li><a href="#ponuda">Ponuda</a></li>
+            <li><a href="#prednosti">Prednosti</a></li>
+            <li><a href="#kako-radi">Kako radi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Info</h4>
+          <ul>
+            <li>Radno vrijeme: 09-22h</li>
+            <li>Email: info@flipzone.ba</li>
+            <li>Dostava: BiH / SRB / HR</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom">© 2026 Flipzone Balkan. Sva prava zadržana.</p>
+    </footer>
+  </div>
+
+  <script src="payment-links.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
